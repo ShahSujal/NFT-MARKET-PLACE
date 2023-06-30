@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+.signup{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background: linear-gradient(70deg,rgb(7, 2, 40),rgb(0, 0, 0),rgb(16, 1, 31));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.image{
+    width: 750px;
+    height: 100%;
+    filter: blur(3px) brightness(10%) saturate(100%) drop-shadow(50%);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* background-color: blue; */
+}
+.image1{
+    width: 300px;
+    height: 300px;
+    filter: blur(3px) brightness(10%) saturate(100%) drop-shadow(50%);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* background-color: blue; */
+}
+.signupContent{
+    width: 700px;
+    height: 600px;
+    border: 3px solid rgb(8, 1, 59);
+    margin: 20px;
+    position: relative;
+    left: 10%;
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 10px 15px 80px rgba(3, 34, 79, 0.445), -12px -12px 80px rgba(3, 42, 75, 0.53);
+    z-index: 10;
+}
+.signupContent input{
+    width: 300px;
+    height: 50px;
+    border-radius: 19px;
+    outline: none;
+    border: 1px solid rgb(0, 132, 203);
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+    /* background: linear-gradient(30deg,rgba(255, 255, 255, 0.249),rgba(0, 0, 0, 0.036)); */
+    backdrop-filter: blur(5px);
+}
+
+.signupContent button{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    border-radius: 25px;
+    /* background: black; */
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid rgb(64, 0, 203);
+    background: linear-gradient(30deg,rgb(11, 72, 213) ,rgb(16, 223, 255), rgb(0, 99, 153));
+    font-family: 'Philosopher', sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+.row{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.signupContent h2{
+    color: whitesmoke;
+    font-family: 'Philosopher', sans-serif;
+}
+.signupContent button:hover{
+background: linear-gradient(30deg,rgba(137, 188, 255, 0.799) ,rgb(187, 119, 235), rgba(3, 32, 112, 0.73));
+}
+.signupContent p{
+    text-align: center;
+    color: aliceblue;
+}
+.signupContent h3{
+    font-size: 14px;
+    color: rgb(11, 158, 212);
+    font-family: 'Philosopher', sans-serif;
+    cursor: pointer;
+}
+@media screen and (max-width: 802px){
+    .image{
+        width: 600px;
+    }
+    .signupContent{
+        background: linear-gradient(30deg,rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.595));
+        left: 0%;
+    }
+    .signupContent input{
+        width: 200px;
+        height: 45px;
+        border: 0px;
+        border-bottom: 2px solid rgba(8, 145, 250, 0.447) ;
+        border-top: 2px solid rgba(8, 145, 250, 0.447) ;
+    }
+}
+.NftImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 14px;
+    border: 1px solid white;
+}
+@media screen and (max-width: 600px){
+    .signupContent input{
+        width: 90%;
+        background: none;
+    }
+    .image{
+        width: 400px;
+    }
+}

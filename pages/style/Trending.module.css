@@ -1,0 +1,138 @@
+.container{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    background: linear-gradient(30deg,rgb(9, 1, 18),rgb(3, 1, 35),rgb(18, 1, 42));
+}
+.containerTitle{
+    font-size: 39px;
+    color: rgb(197, 192, 192);
+    text-shadow: 22px 22px 27px rgb(7, 152, 205),-20px -20px 38px rgb(6, 221, 245);
+    margin: 32px;
+}
+.wrapper{
+    width: 80%;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    overflow: auto;
+    background-color: rgb(35, 36, 36);
+    /* justify-content: center; */
+}
+/* .trendingMargin{
+    margin: auto;
+} */
+.content{
+    width: 280px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 12px 22px;
+}
+.content p{
+    color: rgb(194, 193, 191);
+}
+.contentImage{
+    width: 240px;
+    height: 220px;
+    border-radius: 12px;
+}
+.contentTitle{
+    font-size: 22px;
+    color: rgb(231, 241, 231);
+    font-weight: 700;
+}
+.purchase{
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(30deg,rgb(3, 27, 59),rgb(5, 153, 216));
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.mappedTrending{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 12px;
+    width: 100%;
+    height: 80%;
+    overflow-x: auto;
+    flex-direction: row;
+    /* background: rgb(55, 2, 55); */
+}
+.titles{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 18px;
+    justify-content: space-between;
+}
+.titles h1{
+    color: whitesmoke;
+}
+.titles h2{
+    font-size: 16px;
+    color: rgb(197, 195, 195);
+}
+.Store{
+    width: 90%;
+    height: 45vh;
+    /* background-color: azure; */
+    border-radius: 22px;
+    margin: 22px auto;
+    overflow-y: hidden;
+    background: linear-gradient(30deg,rgba(48, 48, 48, 0.422),rgba(48, 46, 46, 0.63),rgb(18, 1, 42));
+}
+.trend{
+    display: flex;
+    width: 230px;
+    height: 250px;
+    background: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 4px 5px;
+
+}
+.content p{
+    color: rgb(194, 193, 191);
+}
+.trendImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+.trendTitle{
+    font-size: 17px;
+    color: rgb(231, 241, 231);
+    font-weight: 700;
+}
+.title{
+    font-size: 28px;
+    color: rgb(2, 136, 173);
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.NotFound{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    filter: brightness(100%) saturate(100%) contrast(100%);
+}

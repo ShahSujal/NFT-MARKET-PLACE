@@ -1,0 +1,103 @@
+.SideBar{
+    width: 20%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    background: black;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid white; */
+}
+.Section{
+    background: linear-gradient(30deg,rgba(24, 24, 24, 0.218),rgba(19, 18, 18, 0.355),rgba(11, 11, 11, 0.33));
+    backdrop-filter: blur(22px);
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    overflow-y: hidden;
+    /* overflow-y: auto; */
+}
+.Contain{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    border-bottom: 2px solid rgb(46, 45, 45);
+    border-top: 2px solid rgb(46, 45, 45);
+    border-radius: 22px;
+    /* margin: 7px 0px; */
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.4s;
+    padding-left: 30px;
+}
+.Contain h2{
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+    margin-right: 7px;
+}
+.Contain:hover{
+    letter-spacing: 1px;
+    opacity: 1;
+    color: white;
+}
+.input{
+position:absolute;
+z-index: -1;
+opacity: 0;
+}
+.ContainSmall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-bottom: 2px solid rgb(46, 45, 45);
+    border-top: 2px solid rgb(46, 45, 45);
+    border-radius: 22px;
+    margin-bottom: 27px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.LabelRadio{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.control__indicator{
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  border-radius: 50%; 
+  width: 20px;
+  background: grey;
+}
+.control_group{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background: white;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
