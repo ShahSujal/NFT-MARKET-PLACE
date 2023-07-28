@@ -37,7 +37,7 @@ Join us in shaping the future of NFTs and exploring the endless possibilities of
 Clone the project
 
 ```bash
-  git clone https://github.com/ShahSujal/Unreal.git
+  git clone https://github.com/ShahSujal/NFT-MARKET-PLACE
 ```
 
 Go to the project directory
